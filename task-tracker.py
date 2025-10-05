@@ -1,6 +1,8 @@
 import os
 import json
 
+# This was first attempt; tracker.py is the better solution
+
 tasks = []
 # l = len(tasks)
 
@@ -125,4 +127,5 @@ while True:
         break
     else:
         print("Choose a valid task")
+
 
